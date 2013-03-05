@@ -112,7 +112,7 @@ class TmhUtilities {
    */
   public function php_self($dropqs=true) {
     $protocol = 'http';
-    if (strtolower($_SERVER['HTTPS']) == 'on') {
+    if (isset($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on') {
       $protocol = 'https';
     } elseif (isset($_SERVER['SERVER_PORT']) && ($_SERVER['SERVER_PORT'] == '443')) {
       $protocol = 'https';
