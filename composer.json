@@ -1,5 +1,5 @@
 {
-    "name": "nielsz/tmhoauth",
+    "name": "apostle-nl/tmhoauth",
     "type": "library",
     "description": "An OAuth 1.0A library written in PHP",
     "authors": [
